@@ -1,0 +1,77 @@
+body{
+    overflow: hidden;
+}
+#beforeOpen{
+    position: absolute;
+    z-index: 1111111;
+    transition: all 1s ease;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    .container{
+        .row{
+            .col-md-12{
+                position: relative;
+                .nick{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-7%, 53%);
+                    width: 100%;
+                    height: 100vh;
+                    .ruff{
+                        z-index: 1;
+                        position: absolute;
+                        top: -15%;
+                        left: -3%;
+                        h1{
+                            color: black;
+                            font-size: 5rem;
+                            font-family: 'Shrikhand', cursive;
+                            text-shadow: 0 1px 0 #c9cfce,
+                            0 2px 0 #bcc2c2,
+                            0 3px 0 #afb6b6,
+                            0 4px 0 #a4adac,
+                            0 5px 0 #9fa8a7,
+                            0 6px 0 #99a3a2,
+                            0 7px 0 #97a1a0,
+                            0 8px 0 #949e9d,
+                            0 0 5px rgba(0, 0, 0, 0.05),
+                            0 1px 3px rgba(0, 0, 0, 0.2),
+                            0 3px 5px rgba(0, 0, 0, 0.2),
+                            0 5px 10px rgba(0, 0, 0, 0.2),
+                            0 10px 10px rgba(0, 0, 0, 0.2),
+                            0 20px 20px rgba(0, 0, 0, 0.3);
+                        }
+                    }
+                    .ali{
+                        position: absolute;
+                        top: -3%;
+                        left: 0.5%;
+                        h1{
+                            color: black;
+                            font-size: 2.5rem;
+                            font-family: 'Alfa Slab One', cursive;
+                            letter-spacing: 0.8ch;
+                            text-shadow: 0 1px 0 #c9cfce,
+                            0 2px 0 #bcc2c2,
+                            0 3px 0 #afb6b6,
+                            0 4px 0 #a4adac,
+                            0 5px 0 #9fa8a7,
+                            0 6px 0 #99a3a2,
+                            0 7px 0 #97a1a0,
+                            0 8px 0 #949e9d,
+                            0 0 5px rgba(0, 0, 0, 0.05),
+                            0 1px 3px rgba(0, 0, 0, 0.2),
+                            0 3px 5px rgba(0, 0, 0, 0.2),
+                            0 5px 10px rgba(0, 0, 0, 0.2),
+                            0 10px 10px rgba(0, 0, 0, 0.2),
+                            0 20px 20px rgba(0, 0, 0, 0.3);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

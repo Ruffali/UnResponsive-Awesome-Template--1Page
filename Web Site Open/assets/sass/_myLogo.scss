@@ -1,0 +1,29 @@
+#myLogo{
+    position: absolute;
+    z-index: 1234567;
+    width: 10%;
+    height: 100px;
+    top: 43%;
+    background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(../Images/myLogo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -4px 1px 29px 2px #888888;
+    transition: all 1s ease;
+    animation: boxShadowEffect 2s infinite linear;
+    margin-left: -12%;
+    transition: all 0.8s linear;
+}
+@keyframes boxShadowEffect {
+    0% {
+    box-shadow: -4px 1px 29px 2px #888888;
+    }
+  
+    50% {
+    box-shadow: -4px 1px 29px 5px #888888;
+    }
+    100%{
+    box-shadow: -4px 1px 29px 2px #888888;
+
+    }
+  }

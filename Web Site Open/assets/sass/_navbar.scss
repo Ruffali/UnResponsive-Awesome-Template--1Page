@@ -1,0 +1,91 @@
+#navbar{
+    background: black;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    z-index: 1234566;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    .container{
+        .row{
+            .col-md-12{
+                text-align: center;
+                h1{
+                color: white;
+                font-family: 'Lora', serif;
+                text-transform: uppercase;
+                }
+                .home, .beer, .gin, .manhattan, .whiskey{
+                    padding-top: 6%;
+                    h1{
+                        position: relative;
+                        cursor: pointer;
+                        &:hover{
+                            color: white;
+                            z-index: 1;
+                            transition: all .6s ease-out;
+                        }
+                        &:before{
+                            content: '';
+                            position: absolute;
+                            width: 5%;
+                            height: 1px;
+                            top: 50%;
+                            left: 25%;
+                            background-color: white;
+                            transition: all .6s linear;
+                            opacity: 0;
+                        }
+                        &:hover:before{
+                            left: 37%;
+                            opacity: 1;
+                        }
+                        &:after{
+                            content: '';
+                            position: absolute;
+                            width: 5%;
+                            height: 1px;
+                            top: 50%;
+                            right: 25%;
+                            background-color: white;
+                            transition: all .6s linear;
+                            opacity: 0;
+                        }
+                        &:hover:after{
+                            right: 37%;
+                            opacity: 1;
+                        }
+                    }
+                }
+                .home{
+                    padding-top: 15%;
+                }
+                .manhattan{
+                    h1{
+                        &:hover:before{
+                            left: 30%;
+                            opacity: 1;
+                        }
+                        &:hover:after{
+                            right: 30%;
+                            opacity: 1;
+                        }
+                    }
+                }
+                .whiskey{
+                    padding-bottom: 4.2%;
+                    h1{
+                        &:hover:before{
+                            left: 34%;
+                            opacity: 1;
+                        }
+                        &:hover:after{
+                            right: 34%;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

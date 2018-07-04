@@ -1,0 +1,23 @@
+#sandvichButton{
+    z-index: 1234567;
+    opacity: 0;
+    position: absolute;
+    width: 3%;
+    top: 4%;
+    left: 2%;
+    cursor: pointer;
+    padding: 0.2%;
+    transition: all 0.5s ease-out;
+    .firstLine, .secondLine, .thirdLine{
+        width: 100%;
+        height: 1.4px;
+        background: white;
+    }
+    .secondLine, .thirdLine{
+        margin-top: 20%;
+    }
+}
+
+
+
+
